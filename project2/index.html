@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devendra Venkat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="menu-toggle">&#9776;</div>
+      <ul class="nav-menu">
+        <li><a href="#hero-section">Home</a></li>
+        <li><a href="#founder-section">About</a></li>
+        <li><a href="#why-section">Why Us</a></li>
+        <li><a href="#countdown-section">Countdown</a></li>
+        <li><a href="#cta-section">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero-section" class="full-page hero-section">
+    <h1>Experience the Innovation like Never Before!</h1>
+  </section>
+
+  <!-- About Founder Section -->
+  <section id="founder-section" class="full-page founder-section">
+    <div class="founder-section-content">
+      <img src="assets/founder_image.png" alt="Devendra Venkat">
+      <div>
+        <h2>Meet Devendra Venkat, the driving force behind the Company.</h2>  
+        <p>With a passion for innovation and a knack for turning ideas into reality, Devendra Venkat has been instrumental in shaping our company's journey.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Should You Go Ahead with Me? Section -->
+  <section id="why-section" class="full-page why-section">
+    <div class="content-container">
+      <h2>Discover the Company Advantage</h2>
+      <ul>
+        <li><img src="assets/expert.png" alt="Industry Expertise"> Industry Expertise</li>
+        <li><img src="assets/creativity.png" alt="Creative Solutions"> Creative Solutions</li>
+        <li><img src="assets/growth.png" alt="Growth Strategies"> Growth Strategies</li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Countdown Timer Section -->
+  <section id="countdown-section" class="full-page countdown-section">
+    <h2>Tick-Tock! Time is Flying Away!</h2>
+    <div id="countdown"></div>
+    <button onclick="signUp()">Sign Up Now</button>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section id="cta-section" class="full-page cta-section">
+    <h2>Ready to Elevate Your Business?</h2>
+    <p>Join Devendra's Consultancy Programme Today!</p>
+    <button onclick="signUp()">Contact us Now</button>
+  </section>
+
+  <!-- Slide-in Form -->
+  <div id="slide-in-form" style="display:none;">
+    <h2>Get Exclusive Insights Straight to Your Inbox!</h2>
+    <form>
+      <input type="text" placeholder="Your Name"><br>
+      <input type="email" placeholder="Your Email"><br>
+      <input type="tel" placeholder="Your Phone Number"><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
